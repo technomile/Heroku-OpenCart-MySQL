@@ -1,0 +1,44 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "This file is @generated automatically"
+    ],
+    "packages": [
+        {
+            "name": "technomile/Heroku-OpenCart-MySQL",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/technomile/Heroku-OpenCart-MySQL.git"
+            },
+			"require": {
+                "ext-gd": "*",
+				"ext-curl": "*",
+				"ext-mcrypt": "*",
+				"ext-zlib": "*",
+				"ext-zip": "*",
+                "ext-soap": "*"
+            },
+			"type": "heroku-buildpack",
+			"license": [
+                "OSL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Inderjeet Sohal",
+                    "email": "inderjeets@technomile.com",
+                    "homepage": "http://technomile.github.io/opencart/"
+                }
+            ],
+            "description": "Deploy your favorite eCommerce on Heroku using our OpenCart buildpack.",
+            "keywords": [
+                "heroku", 
+				"opencart", 
+				"php", 
+				"apache", 
+				"apache2", 
+				"nginx",
+				"mysql"
+            ]
+        }
+    ]
+}

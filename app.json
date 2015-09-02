@@ -1,0 +1,8 @@
+{
+    "name": "OpenCart Buildpack",
+	"description": "Deploy your favorite eCommerce on Heroku using our OpenCart buildpack.",
+	"repository": "https://github.com/technomile/Heroku-OpenCart-MySQL",
+	"logo": "http://technomile.github.io/img/cms_buildpack_github.png",
+	"keywords": ["opencart", "heroku", "php", "mysql", "apache", "apache2", "nginx"],
+	"addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"]
+}
