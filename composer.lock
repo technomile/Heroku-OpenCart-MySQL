@@ -1,44 +1,25 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "packages": [
-        {
-            "name": "technomile/Heroku-OpenCart-MySQL",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/technomile/Heroku-OpenCart-MySQL.git"
-            },
-			"require": {
-                "ext-gd": "*",
-				"ext-curl": "*",
-				"ext-mcrypt": "*",
-				"ext-zlib": "*",
-				"ext-zip": "*",
-                "ext-soap": "*"
-            },
-			"type": "heroku-buildpack",
-			"license": [
-                "OSL 3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Inderjeet Sohal",
-                    "email": "inderjeets@technomile.com",
-                    "homepage": "http://technomile.github.io/opencart/"
-                }
-            ],
-            "description": "Deploy your favorite eCommerce on Heroku using our OpenCart buildpack.",
-            "keywords": [
-                "heroku", 
-				"opencart", 
-				"php", 
-				"apache", 
-				"apache2", 
-				"nginx",
-				"mysql"
-            ]
-        }
-    ]
+    "hash": "6eff9a2ed7d1751f27bc0fd0c7f1c49e",
+    "content-hash": "ad11c392b01f0757a86da4a671907158",
+    "packages": [],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-gd": "*",
+		"ext-curl": "*",
+		"ext-mcrypt": "*",
+		"ext-zlib": "*",
+		"ext-zip": "*",
+		"ext-soap": "*"
+    },
+    "platform-dev": []
 }
